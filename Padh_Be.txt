@@ -1,0 +1,18 @@
+Open the Pro Folder in VSCode
+1.Create a virtual Environment:
+
+Final_Project> python -m venv venv  
+
+2.Activate the venv:
+
+Final_Project> venv\Scripts\Activate
+
+3.Now in the activated venv install Streamlit an other packages needed:
+
+a)(venv) PS Final_Project> pip install pandas numpy scikit-learn streamlit 
+
+b)(venv) PS Final_Project> pip install xgboost
+
+Now Run the app.py file to execute the pro in browser:
+
+#)(venv) PS Final_Project> streamlit run app.py 
